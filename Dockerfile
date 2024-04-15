@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17
+FROM eclipse-temurin:21
 
 RUN mkdir /opt/app
 COPY back-end/target/back-end-1.0-SNAPSHOT-jar-with-dependencies.jar /opt/app
